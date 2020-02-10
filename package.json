@@ -1,17 +1,14 @@
 {
-	"name": "gulp-webpack",
+	"name": "nologo-test",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
 	"scripts": {
 		"start": "gulp",
 		"webpack": "webpack"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@git.vmgr.ru:common/builder.git"
+		"url": "git@github.com:OdinVerst/NoLogo-test.git"
 	},
-	"author": "VMGR",
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.5.5",

@@ -1,2 +1,6 @@
-@import './common.scss';
+// Common
+@import './common/const';
+@import './common/font';
+@import './common/style';
+// Header
 @import '../blocks/header/style';
