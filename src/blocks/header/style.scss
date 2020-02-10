@@ -1,0 +1,63 @@
+.header__nav {
+  box-shadow: $shadow-white;
+}
+
+.header__nav-list {
+  width: $wrapper;
+  margin: 0 auto;
+}
+
+.nav__item {
+  width: 25%;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__btn {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid $grey;
+  padding: 23px;
+  justify-content: space-around;
+  fill: #a8a8a8;
+  cursor: pointer;
+  transition: 0.2s;
+  outline: none;
+
+  &:hover {
+    color: #123653;
+    fill: #123653;
+  }
+
+  &.active {
+    background: $ship;
+    color: white;
+    fill: white;
+  }
+}
+
+.nav__item--more {
+  width: 80px;
+  flex-shrink: 0;
+  border-right: 1px solid $grey;
+}
+
+.nav__btn--more {
+  fill: $ship;
+}
+
+.nav__btn-title {
+  text-align: left;
+  margin-left: 14px;
+}
+
+.nav__btn-ico {
+  max-height: 38px;
+  max-width: 66px;
+}
+
+.nav__btn-ico--more {
+  width: 100%;
+}
